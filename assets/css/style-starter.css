@@ -54,6 +54,46 @@ Author URL: http://w3layouts.com
     }
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/* Logo */
+.logo-img {
+    width: 130px;
+    height: auto;
+    margin-right: 8px;
+}
+
+/* Brand text */
+.brand-text {
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 576px) {
+    /* Hide the text */
+    .brand-text {
+        display: none;
+    }
+
+    /* Center the logo */
+    .navbar-brand {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-img {
+        width: 100px; /* adjust if needed */
+        margin: 0;     /* remove margin on mobile */
+    }
+}
+
 
  .navbar {
     height: 80px; /* adjust as needed */
