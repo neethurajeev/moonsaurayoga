@@ -18,7 +18,7 @@ Author URL: http://w3layouts.com
 .navbar-brand img {
     height: 200px; /* ensures it doesn't push navbar down */
     width: 250px; 
-    margin-top: 70px; 
+    /* margin-top: -2px;  */
     margin-left: -50px;     /* maintain aspect ratio */
 }
 
@@ -19147,6 +19147,7 @@ header.nav-fixed {
     background: var(--primary-color);
     line-height: 34px;
     color: #fff;
+    margin-top: -44px;
   }
 
   button.navbar-toggler .icon-close {
@@ -19198,6 +19199,8 @@ header.nav-fixed {
 @media only screen and (max-width: 480px) {
   .navbar .navbar-brand {
     font-size: 32px;
+    margin-top: -60px;
+    margin-left: 60px;
   }
 
   .cont-ser-position {
