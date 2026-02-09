@@ -10,6 +10,51 @@ Author URL: http://w3layouts.com
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .bottom-heading {
+    display: block;
+    text-align: center;
+    margin: 15px auto 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b2e83;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none; /* remove underline */
+}
+
+.brand-text {
+    font-size: 22px;       /* adjust as needed */
+    font-weight: 900;      /* fully bold */
+    color: #ffffff;        /* white text */
+}
+
+.brand-text span {
+    font-weight: 900;      /* ensure all spans bold */
+    color: #ffffff;        /* white text */
+}
+
+/* Logo size */
+.logo-img {
+    width: 130px;
+    height: auto;
+    margin-right: 8px;
+}
+
+/* 🔥 MOBILE FIX */
+@media (max-width: 576px) {
+    .logo-img {
+        width: 90px;
+    }
+
+    .brand-text {
+        font-size: 16px;    /* smaller on mobile */
+    }
+}
+
+
  .navbar {
     height: 80px; /* adjust as needed */
 }
