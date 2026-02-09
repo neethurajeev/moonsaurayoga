@@ -103,7 +103,7 @@ Author URL: http://w3layouts.com
 .navbar-brand img {
     height: 200px; /* ensures it doesn't push navbar down */
     width: 250px; 
-    /* margin-top: -2px;  */
+    margin-top: 20px; 
     margin-left: -50px;     /* maintain aspect ratio */
 }
 
